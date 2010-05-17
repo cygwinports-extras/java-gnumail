@@ -1,0 +1,11 @@
+# JAVA_CLASSPATH="activation.jar:inetlib.jar"
+ORIG_PN="mail"
+inherit ant
+
+DESCRIPTION="GNU implementation of JavaMail API"
+HOMEPAGE="http://www.gnu.org/software/classpathx/javamail/javamail.html"
+SRC_URI="mirror://gnu/classpathx/${ORIG_PN}-${PV}.tar.gz"
+
+ANT_BUILD_TARGETS="dist javadoc"
+ANT_INSTALL_JARS="*.jar"
+ANT_INSTALL_JAVADOC="docs"

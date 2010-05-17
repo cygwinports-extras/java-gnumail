@@ -1,0 +1,9 @@
+category: Java
+requires: java-activation java-inetlib
+sdesc: "GNU implementation of JavaMail API"
+ldesc: "GNU JavaMail provides a protocol-independent framework for 
+building mail client applications in Java. The API itself provides a 
+complete MIME implementation, and drivers for individual messaging 
+protocols, known as providers, can be plugged into the JavaMail 
+framework dynamically. Several providers, implementing Internet standard 
+protocols, are included with GNU JavaMail."
